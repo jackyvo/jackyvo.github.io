@@ -37,8 +37,7 @@
 }
 
 #l5 {
-  top: 100px;
-  right: -150px;
+  display: none;
 }
 
 #l6 {
@@ -63,6 +62,17 @@
 
 .layer-bg {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
+
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.1)),url('/assets/images/backgrounds/bg.jpg');
+  background-position: -10% 70%;
+  background-size: 100%;
+  width: 100% !important;
+}
+
+h1 {
+  font-size: 45pt;
+  font-weight: bold;
 }
