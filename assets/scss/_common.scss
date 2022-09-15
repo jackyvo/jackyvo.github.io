@@ -23,6 +23,10 @@ body {
   justify-content: center;
 }
 
+.fixed-top {
+  position: absolute !important;
+}
+
 ol,
 ul {
   margin: 0px;
