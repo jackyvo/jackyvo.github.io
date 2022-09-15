@@ -1,13 +1,35 @@
 .hero-area {
-  padding: 300px 0 200px;
   position: relative;
+
   @include tablet {
     padding: 250px 0 150px;
     overflow: hidden;
   }
-  h1{
+
+  h1, p{
     position: relative;
     z-index: 2;
+  }
+
+  .box {
+    margin-top: 10% !important;
+    width: 40%;
+    float: right;
+    text-align: right;
+  }
+
+  h1 {
+    height: 200px;
+  }
+
+  p {
+    color: white;
+    text-shadow: 2px 2px 2px #2b4a3f;
+  }
+
+  .btn {
+    padding: 5px 30px;
+    font-size: 12pt;
   }
 }
 
@@ -67,12 +89,13 @@
 
   height: 100vh;
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.1)),url('/assets/images/backgrounds/bg.jpg');
-  background-position: -10% 70%;
-  background-size: 100%;
+  background-position: 0% 70%;
+  background-size: cover;
   width: 100% !important;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  font-size: 45pt;
+  font-size: 42pt;
   font-weight: bold;
 }
