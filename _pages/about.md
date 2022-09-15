@@ -1,8 +1,8 @@
 ---
 layout: about
 title: About Me
-author: Jacky Vo
-image: assets/images/about/author.jpg
+author: Jacky 
+image: assets/images/about/author.png
 signature: assets/images/about/signature.png
 ---
 
