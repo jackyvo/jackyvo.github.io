@@ -3,6 +3,9 @@ url: "https://jackyvo.github.io" # the base hostname & protocol for your site, e
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
 permalink: pretty
 plugins:
   - jekyll-sitemap
