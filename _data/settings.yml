@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2022
 
 menu:
   - { name: About, link: "/about" }
+  - { name: Portfolio, link: "https://www.uplance.me/jacky" }
   - { name: Blog, link: "/blog" }
   - { name: Contact, link: "/contact" }
 
